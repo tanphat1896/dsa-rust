@@ -16,4 +16,12 @@ impl TreeNode {
             right: right.map(|v| Rc::new(RefCell::new(v))),
         }
     }
+    
+    pub fn nochild(val: i32) -> Self {
+        TreeNode {
+            val,
+            left: None,
+            right: None,
+        }
+    }
 }
