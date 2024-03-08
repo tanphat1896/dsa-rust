@@ -5,5 +5,6 @@ mod balance_bin_tree;
 mod same_tree;
 mod sub_tree;
 mod bin_tree_level_order_traversal;
+mod invert_bin_tree;
 
 struct Solution;
