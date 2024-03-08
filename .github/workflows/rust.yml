@@ -23,7 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Cargo install nextest
-      run: cargo install cargo-nextest && cargo nextest list
     - name: Test
-      run: cargo nextest run
+      run: cargo test
+
